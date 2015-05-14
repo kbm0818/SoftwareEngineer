@@ -135,6 +135,7 @@ public class Client extends JFrame implements ActionListener {
 		System.out.println("프로토콜 :" + protocol);
 		System.out.println("내용:" + Message);
 
+		
 		if (protocol.equals("NewUser")) {
 			user_list.add(Message);
 			User_list.setListData(user_list);

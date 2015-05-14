@@ -38,7 +38,6 @@ public class Server extends JFrame implements ActionListener {
 	private StringTokenizer st;
 	
 	Server() {
-
 		init(); //
 		start(); // ActionListener
 	}
