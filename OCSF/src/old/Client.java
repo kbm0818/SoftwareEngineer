@@ -123,7 +123,7 @@ public class Client extends JFrame implements ActionListener {
 		contentPane.add(send_btn);
 		this.setVisible(true);
 	}
-	
+
 	private void inmessage(String str) // 서버로부터 들어오는 모든 메세지
 	{
 		st = new StringTokenizer(str, "/");
