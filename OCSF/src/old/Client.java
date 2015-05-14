@@ -121,7 +121,6 @@ public class Client extends JFrame implements ActionListener {
 		});
 		send_btn.setBounds(575, 472, 97, 23);
 		contentPane.add(send_btn);
-
 		this.setVisible(true);
 	}
 	
