@@ -94,7 +94,6 @@ public class Server extends JFrame implements ActionListener {
 
 	private void Connection() {
 		Thread th = new Thread(new Runnable() {
-
 			@Override
 			public void run() {
 				while (true) {

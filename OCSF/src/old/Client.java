@@ -124,7 +124,7 @@ public class Client extends JFrame implements ActionListener {
 
 		this.setVisible(true);
 	}
-
+	
 	private void inmessage(String str) // 서버로부터 들어오는 모든 메세지
 	{
 		st = new StringTokenizer(str, "/");
@@ -135,7 +135,6 @@ public class Client extends JFrame implements ActionListener {
 		System.out.println("프로토콜 :" + protocol);
 		System.out.println("내용:" + Message);
 
-		
 		if (protocol.equals("NewUser")) {
 			user_list.add(Message);
 			User_list.setListData(user_list);
